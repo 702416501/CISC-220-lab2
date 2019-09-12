@@ -11,7 +11,7 @@
 using namespace std;
 
 
-int main(){
+/*int main(){
 	/*int a=14;
 	cout<<a<<endl;
 	cout<<&a<<endl;
@@ -23,11 +23,10 @@ int main(){
 	cout<<&b<<endl;
 	cout<<&c<<endl;
 	*c=*c**c;
-	cout<<b<<endl;*/
+	cout<<b<<endl;
 
 
 
 }//main
-
-
+*/
 
