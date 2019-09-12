@@ -11,7 +11,7 @@
 using namespace std;
 
 
-int main(){
+int main(){ //main
 	/*int a=14;
 	cout<<a<<endl;
 	cout<<&a<<endl;
