@@ -22,7 +22,7 @@ void func2(int b){
 	b+=4;
 	cout<<b<<"\t"<<&b<<endl;
 	return;
-}//need to add the variable to the main function; see second part of problem 2
+}
 
 int func3(){
 	int c = 37;
