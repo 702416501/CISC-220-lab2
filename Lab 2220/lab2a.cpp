@@ -69,7 +69,24 @@ bool func8a(int &k, int &l){
 		return false;
 	}
 }
- int main(){
+
+void func8b() {
+        for (int i = 0; i < 21; i++) {
+            int x = rand() % 25 + 1;
+            cout << "The first number is " << x << endl;
+            int y = rand() % 25 + 1;
+            cout << "The second number is " << y << endl;
+            cout << "\n" << endl;
+            if (func8a(x, y) == true) {
+                cout << "The first number is now " << x << endl;
+                cout << "The second number is now " << y << endl;
+                cout << "The numbers were swapped!" << endl;
+                cout << "\n" << endl;
+            }
+        }
+}
+
+int main(){
 	 //p1
 	 cout<<"Problem 1"<<endl;
 	 func1();
@@ -135,10 +152,11 @@ bool func8a(int &k, int &l){
 	 cout<<func8a(mm,nn)<<"\t"<<mm<<"\t"<<nn<<endl;
 	 cout<<"\n"<<endl;
 
-
+	 //p8b
+	 cout << "Problem 8b" << endl;
+	 func8b();
+	 func8b();
+	 cout << "\n" << endl;
 
 	 return 0;
-
  }
-
-
