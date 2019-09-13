@@ -2,7 +2,7 @@
  * Lab2TOC.cpp
  *
  *  Created on: Sep 3, 2019
- *      Author: Allie and Alex Clark
+ *      Author: Allie DeAbreu and Alex Clark
  */
 
 #include <iostream>
@@ -11,7 +11,7 @@
 using namespace std;
 
 
-int main(){ //main
+/*int main(){ //main
 	/*int a=14;
 	cout<<a<<endl;
 	cout<<&a<<endl;
@@ -23,7 +23,7 @@ int main(){ //main
 	cout<<&b<<endl;
 	cout<<&c<<endl;
 	*c=*c**c;
-	cout<<b<<endl;*/
+	cout<<b<<endl;
 
 
 // Memory/Arrays Try on Computer
@@ -32,7 +32,7 @@ int main(){ //main
   	cout << arr <<endl; //Printing using method 2, printing the address of the array (aka where first value in array is)
   	for(int i = 0; i < sizeof(arr); i++) {
   		cout << &arr[i] << endl;
-  	}
+  	}*/
 /*
   	int main() {
   		int arr[7] = {10,20,30,40,50,60,70};
@@ -58,4 +58,4 @@ int main(){ //main
 	as starting from the beginning of the array) and the address of the 3rd element (position 2, value = 30) for the starting point of the
 	third call.
 */
-}
+//}
