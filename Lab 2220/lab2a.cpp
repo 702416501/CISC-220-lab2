@@ -51,6 +51,13 @@ void func6(int *f, int *g){
 	return;
 }
 
+void func7(char h, char *i, char &j){
+	h = 'c';
+	*i = 't';
+	j = 'a';
+	return;
+}
+
  int main(){
 	 //p1
 	 cout<<"Problem 1"<<endl;
@@ -98,7 +105,13 @@ void func6(int *f, int *g){
 
 	 //p7
 	 cout<<"Problem 7"<<endl;
-
+	 char gg = 'c';
+	 char hh = 'l';
+	 char ii = 'a';
+	 char jj = 's';
+	 cout<<gg<<hh<<ii<<jj<<jj<<endl;
+	 func7(hh, &ii, jj);
+	 cout<<gg<<jj<<ii<<endl;
 
 
 
