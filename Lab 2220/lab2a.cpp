@@ -112,6 +112,7 @@ void func7(char h, char *i, char &j){
 	 cout<<gg<<hh<<ii<<jj<<jj<<endl;
 	 func7(hh, &ii, jj);
 	 cout<<gg<<jj<<ii<<endl;
+	 cout<<"\n"<<endl;
 
 
 
