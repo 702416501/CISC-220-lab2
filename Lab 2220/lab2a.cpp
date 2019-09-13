@@ -58,6 +58,17 @@ void func7(char h, char *i, char &j){
 	return;
 }
 
+bool func8a(int &k, int &l){
+	int x = l;
+	if (l>k){
+		l = k;
+		k = x;
+		return true;
+
+	}else{
+		return false;
+	}
+}
  int main(){
 	 //p1
 	 cout<<"Problem 1"<<endl;
@@ -112,6 +123,16 @@ void func7(char h, char *i, char &j){
 	 cout<<gg<<hh<<ii<<jj<<jj<<endl;
 	 func7(hh, &ii, jj);
 	 cout<<gg<<jj<<ii<<endl;
+	 cout<<"\n"<<endl;
+
+	 //p8a
+	 cout<<"Problem 8a"<<endl;
+	 int kk = 4;
+	 int ll = 10;
+	 cout<<func8a(kk,ll)<<"\t"<<kk<<"\t"<<ll<<endl;
+	 int mm = 10;
+	 int nn = 4;
+	 cout<<func8a(mm,nn)<<"\t"<<mm<<"\t"<<nn<<endl;
 	 cout<<"\n"<<endl;
 
 
